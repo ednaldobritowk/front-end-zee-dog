@@ -1,0 +1,84 @@
+/* ==========================================================================
+   Homepage
+   ========================================================================== */
+main{
+	text-align: center;
+	.card{
+		border: none;
+		margin-top: 40px;
+		img{
+			margin: 10px 0 30px;
+		}
+	}
+	.card-title{
+    		margin-bottom: 0.50rem;
+    	}
+	.box{
+	    justify-content: center;
+	    border-top: 1px solid #999;
+	    border-bottom: 1px solid #999;
+	    padding: 40px 0;
+    	margin: 40px 0;
+    	.bt-lupa{
+    		max-width: 100px;
+    		height: 25px;
+    		text-transform: uppercase;
+    		display: block;
+    		color: #c6cbcf;
+    		background: url(compress/img/bt-lupa.jpg) no-repeat;
+    		span{
+			    margin: 3px 0 0 10px;
+				display: inline-block;
+    		}
+    	}
+	}
+}
+
+
+#wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 0;
+
+  .page-head-image img {
+  		border-radius: 50%;
+	}
+
+	#form-trabalhe {
+		  margin-top: 30px;
+		  text-align: left;
+		}
+
+	label {
+		  font-weight: normal;
+		  margin-top: 15px;
+		}
+
+	input {
+		  border: 2px solid #CCC !important;
+		  height: 35px;
+		  border-radius: 3px;
+		  max-width: 100%;
+		}
+
+	.input-group-addon {
+		  border: 2px solid #CCC !important;
+		  border-right: 0px !important;
+		}
+
+	.btn {
+		  border: 0;
+		  border-radius: 3px;
+		  margin-top: 20px;
+		}
+
+
+	.form-group {
+		  margin-bottom: 0;
+		  text-align: left;
+		}
+
+
+}

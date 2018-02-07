@@ -1,0 +1,85 @@
+/* ==========================================================================
+   Header
+   ========================================================================== */
+header{
+	text-transform: uppercase;
+	.dropdown-menu{ 
+		top: 35%; 
+		left: auto;
+	}
+	.topo-header{
+		min-height: 40px;
+		background-color: #efefef;
+		display: flex;
+		justify-content: space-around;
+		padding-top: 10px;
+		ul{
+			display: flex;  
+			line-height: initial;
+			li{
+				margin-left: 30px;
+				.menu-secondary__circle{
+					background: #00c6ab;
+				    display: inline-block;
+				    height: 18px;
+				    width: 18px;
+				    border-radius: 50%;
+				    font-size: 1em;
+				    text-align: center;
+				    margin-left: 5px;
+				    .cart-totals{
+			    	    color: #fff;
+					    border-radius: 50%;
+					    font-size: .9em;
+					    font-weight: 700;
+					    line-height: 1.6;
+				    }
+				}
+				.menu-secondary__icon{
+					margin-left: 5px;
+				}
+			}
+		}
+	}
+
+	.menu-primary{
+		padding: 20px 0; 
+		a{
+			color: #665d6e;
+			padding-top: 30px;
+		}
+		.logo{
+			padding-top: 0;
+		}
+	}
+
+	.navbar-custum{
+		padding: 10px 0 10px 7px;
+	}
+	
+	form{
+		.form-control{
+			border-radius: 0;
+			border: none;
+			background-color: #efefef;
+		}
+		.btn-buscar{
+			position: absolute;
+			top: 50%;
+			right: 17px;
+			width: 25px;
+			height: 28px;
+			padding: 0;
+			text-indent: -9999px;
+			border: 0;
+			background-color: transparent;
+			background-position: 50%;
+			background-repeat: no-repeat;
+			background-size: 15px 14px;
+			background-image: url(compress/img/lupa.png);
+			-webkit-transform: translateY(-50%);
+			transform: translateY(-50%);
+		}
+	}
+
+}

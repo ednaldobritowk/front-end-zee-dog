@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@-ms-viewport { width: device-width; }
+
+/*
+Dependencies
+========================================================================== */
+
+@import "partials/base/mixins";
+@import "resetv2";
+@import "partials/all";
+@import "../../bower_components/bootstrap/scss/bootstrap";
+
+/*
+Base Style
+========================================================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500');
+
+@include mq($screen-sm) {
+	*:focus { outline: none !important; }
+}
+
+li{ list-style: none; }
+
+.text-hidden{
+	overflow: hidden;
+	display: inline-block;
+	text-indent: -9999px;
+}
+a{ 
+	text-decoration: none;
+	color: #f76420;
+ }
+ small{ font-size: 90%; }
+
+.card-title{
+    margin-bottom: 1.75rem;
+}
+
+p{
+	font-size: 14px; 
+	line-height: 25px;
+}
+
+h1,
+.card-custum,
+h2,
+h3,
+h4{ text-transform: uppercase; }
+
+html {
+	min-height: 100%;
+	box-sizing: border-box;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+* { box-sizing: inherit; }
+
+/*
+Layout
+========================================================================== */
+
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	background: url(compress/img/bg-main.jpg);
+	line-height: 20px;
+}

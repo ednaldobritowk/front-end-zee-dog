@@ -1,0 +1,47 @@
+/*
+   Breakpoints
+   ========================================================================== */
+
+$screen-xs: 0;
+$screen-xs-min: $screen-xs;
+$screen-sm: 480px;
+$screen-sm-min: $screen-sm;
+$screen-md: 960px;
+$screen-md-min: $screen-md;
+$screen-lg: 2500px;
+$screen-lg-min: $screen-lg;
+$screen-xs-max: ($screen-sm - 1);
+$screen-sm-max: ($screen-md - 1);
+$screen-md-max: ($screen-lg - 1);
+
+/*
+   Grid
+   ========================================================================== */
+
+$container-max-width: 1142.55px;
+$grid-columns: 12;
+$grid-gutter-width: 14px;
+$grid-float-breakpoint: $screen-sm-min;
+$grid-float-breakpoint-max: ($grid-float-breakpoint - 1);
+$button-size: 20px;
+$button-color: #fff;
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	max-width: $container-max-width;
+}
+
+
+.col-xs-1{ width: 8.3333333333%!important; }
+.col-xs-2{ width: 16.6666666667%!important; }
+.col-xs-3{ width: 25%!important; }
+.col-xs-4{ width: 33.3333333333%!important; }
+.col-xs-5{ width: 41.6666666667%!important; }
+.col-xs-6{ width: 50%!important; }
+.col-xs-7{ width: 58.3333333333%!important; }
+.col-xs-8{ width: 66.6666666667%!important; }
+.col-xs-9{ width: 75%!important; }
+.col-xs-10{ width: 83.3333333333%!important; }
+.col-xs-11{ width: 91.6666666667%!important; }
+.col-xs-12{ width: 100%!important; }

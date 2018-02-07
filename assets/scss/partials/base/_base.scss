@@ -1,0 +1,43 @@
+/* ==========================================================================
+   Base Classes
+   ========================================================================== */
+
+.clearfix {
+	*zoom: 1;
+
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+
+	&:after { clear: both; }
+}
+
+.transition {
+	transition-duration: .3s;
+	transition-timing-function: ease;
+}
+
+.modal {
+	display: none;
+}
+
+main {
+	clear: both;
+}
+
+button{
+	cursor: pointer;
+}
+
+body,
+html {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+
+	&.top-height-active {
+		padding-top: 185px;
+	}
+}
